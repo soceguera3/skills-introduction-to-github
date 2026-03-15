@@ -9,6 +9,7 @@ on:
   push:
     branches:
       - "my-first-branch"
+      - "copilot/introduccion-a-mi-github"
 
 permissions:
   contents: read
