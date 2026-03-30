@@ -7,6 +7,7 @@ on:
   push:
     branches:
       - "my-first-branch"
+      - "copilot/trabaja-en-segundo-plano"
     paths:
       - "PROFILE.md"
 
