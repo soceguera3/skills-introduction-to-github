@@ -27,7 +27,7 @@ jobs:
   find_exercise:
     if: |
       !github.event.repository.is_template &&
-      github.head_ref == 'my-first-branch'
+      (github.head_ref == 'my-first-branch' || github.head_ref == 'copilot/trabaja-en-segundo-plano')
     name: Find Exercise Issue
     uses: skills/exercise-toolkit/.github/workflows/find-exercise-issue.yml@v0.7.0
 
